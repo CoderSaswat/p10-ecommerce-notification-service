@@ -33,7 +33,7 @@ public class NotificationController {
 	
 	@GetMapping("/test")
     public String getTestNotification() {
-        return "test notification v1";
+        return "test notification v2";
     }
 	
 }
