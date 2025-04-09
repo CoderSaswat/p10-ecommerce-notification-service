@@ -30,4 +30,10 @@ public class NotificationController {
     public NotificationDto createNotification(@RequestBody NotificationDto notificationDto) {
         return notificationService.createNotification(notificationDto);
     }
+	
+	@GetMapping("/test")
+    public String getTestNotification() {
+        return "test notification v1";
+    }
+	
 }
